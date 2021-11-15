@@ -1,0 +1,54 @@
+body {
+  background-color: lightgreen;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+}
+
+.container {
+  margin: 0;
+  padding: 30px;
+  width: 600px;
+  height: 500px;
+  border: 1px solid dodgerblue;
+  background: url("../images/Bicycle-PNG-3.png");
+  background-size: 650px 700px;
+  background-position: center bottom -320px;
+  background-repeat: no-repeat;
+  background-color: #fff;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: sans-serif;
+}
+
+.top img {
+  width: 50px;
+  height: 30px;
+}
+.main-content {
+  display: flex;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  font-weight: 100;
+}
+.price {
+  margin-left: 150px;
+  display: flex;
+  flex-direction: column;
+  font-weight: 600;
+  font-size: 20px;
+}
